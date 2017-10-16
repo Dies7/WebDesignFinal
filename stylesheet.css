@@ -40,7 +40,7 @@ li a:hover {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #13ad4e;
     color: white;
 }
 
@@ -107,7 +107,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #3d3d3d;
 }
 
 li.dropdown {
@@ -138,5 +138,29 @@ li.dropdown {
 }
 
 header {
-	background-color: green;
+	background-color: #23c662;
+	display: inline-block;
+	background-image: url('images/header-1.png');
+	position: static;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #191919;
+}
+
+body {
+	background-image: url('images/background-image.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-style {
+	background-color: #f2f2f2;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
 }
