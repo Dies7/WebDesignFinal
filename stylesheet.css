@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #999999;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -107,7 +107,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: black;
 }
 
 li.dropdown {
@@ -131,8 +131,12 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: gray}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+header {
+	background-color: green;
 }
