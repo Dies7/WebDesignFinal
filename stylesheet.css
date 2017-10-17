@@ -95,7 +95,7 @@ div.content {
 
 @media screen and (max-width: 900px) {
     ul.sidenav {
-        width: 100%;
+        width: 50%;
         height: auto;
         position: relative;
     }
@@ -185,5 +185,5 @@ iframe {
 	float: right;
 	width: 85.7%;
 	height: 720px;
-	display: block; 
+	display: block;
 }
