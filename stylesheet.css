@@ -185,4 +185,5 @@ iframe {
 	float: right;
 	width: 85.7%;
 	height: 720px;
+	display: block; 
 }
