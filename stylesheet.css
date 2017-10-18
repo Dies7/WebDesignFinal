@@ -39,12 +39,12 @@ ul.sidenav li a {
 
 ul.sidenav li a.active {
 	background-color: #13ad4e;
-	color: black;
+	color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
-    background-color: #white;
-    color: black;
+    background-color: #383838;
+    color: white;
 }
 
 div.content {
