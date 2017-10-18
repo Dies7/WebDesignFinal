@@ -26,7 +26,7 @@ ul.sidenav {
 	width: 13.9%;
 	background-color: #999999;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	overflow: auto;
 }
 
@@ -86,13 +86,13 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-    display: inline-block;
+    display: block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: gray;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -115,14 +115,15 @@ li.dropdown {
 /* Website Formatting */
 header {
 	background-color: #23c662;
-	display: inline-block;
+	display: block;
 	background-image: url('images/header-1.png');
-	position: static;
+	position: sticky;
 	width: 100%;
 	height: 100px;
 	margin: 0 auto;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #191919;
+	padding-top: 10px;
 }
 
 body {
@@ -135,12 +136,12 @@ body {
 }
 
 .text-style {
-	width: 100%;
+	text-align: center;
 }
 
 iframe {
 	float: right;
 	width: 85.7%;
-	height: 720px;
+	height: 800px;
 	display: block;
 }
