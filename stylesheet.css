@@ -49,7 +49,7 @@ ul.sidenav li a:hover:not(.active) {
 
 div.content {
     padding: 1px 16px;
-    height: 800px;
+    height: 400px;
 		text-align: center;
 		word-wrap: break-word;
 		width: 45%;
