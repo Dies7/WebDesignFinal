@@ -48,9 +48,11 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 25%;
     padding: 1px 16px;
     height: 1000px;
+		text-align: center;
+		word-wrap: break-word;
+		width: 45%;
 }
 
 @media screen and (max-width: 900px) {
@@ -135,13 +137,33 @@ body {
   background-size: cover;
 }
 
-.text-style {
-	text-align: center;
-}
-
 iframe {
 	float: right;
 	width: 85.7%;
 	height: 800px;
 	display: block;
+}
+
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -38%;
+}
+.float_center > .child {
+  position: relative;
+  left: 38%;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
